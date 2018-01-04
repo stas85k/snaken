@@ -7,11 +7,15 @@ namespace snaken
         public int y;
         public char sym;
 
-        public Point(int v1, int v2, char v3)
+        public Point()
         {
-            this.x = v1;
-            this.y = v2;
-            this.sym = v3;
+        }
+
+        public Point(int _x, int _y, char _sym)
+        {
+            x = _x;
+            y = _y;
+            sym = _sym;
         }
 
         public void Draw(int x, int y, char sym)
