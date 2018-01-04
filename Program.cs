@@ -6,6 +6,7 @@ namespace snaken
     {
         public static void Main(string[] args)
         {
+
             Point p1 = new Point(1, 3, '*');
 
             p1.Draw(p1.x, p1.y, p1.sym);
@@ -14,5 +15,15 @@ namespace snaken
 
             p2.Draw(p2.x, p2.y, p2.sym);
         }
+<<<<<<< HEAD
+=======
+
+
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8470f2a... constructor
+
+>>>>>>> 8470f2a... constructor
     }
 }
